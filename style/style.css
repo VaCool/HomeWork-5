@@ -1,0 +1,163 @@
+body{
+	margin: 0;
+}
+.Main{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.background{
+	margin-left: -5%;
+	margin-right: -5%;
+	background: gray;
+}
+.Panel{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+#navbar {
+  margin-top: 8px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #151414;
+
+}
+
+#navbar li{
+  display: inline-block;
+  width: 75px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+	}
+#navbar li:first-child{
+	width: 125px;
+}
+
+#navbar li a{
+  text-decoration: none;
+  vertical-align: middle;
+  display: inline;
+  color: grey;
+}
+#navbar li p{
+  text-decoration: none;
+  vertical-align: middle;
+  display: inline;
+  color: grey;
+}
+#navbar li:hover {
+  background-color: black;
+}
+#navbar li a:hover {
+  background-color: black;
+  color: white;
+}
+
+.OneMore{
+	padding-top: 100px;
+ 	text-align: center;
+	color: white;
+	font-size: 135%;
+}
+.OneMore h1{
+	margin-bottom: 0;
+}
+.BrowseButton{
+	background: blue;
+	color: white;
+	padding: 10px 30px;
+	border-radius: 6px;
+	border: 0;
+	margin-top: 15px;
+	margin-bottom: 45px;	
+}
+.round{
+	width: 120px;
+	height: 120px;
+	background: gray;
+	border-radius: 60px;
+	margin: auto;
+}
+.content{
+	font-size: 90%;
+	text-align: center;
+}
+.content .rov{
+	width: 100%;	
+}
+.content .rov .Heading{
+vertical-align: top;
+display: inline-block;
+width: calc((100% - 30px) / 3);
+margin: 0;
+}
+.content .rov .Heading button{
+	margin-top: 10px;
+	background: white;
+	color: black;	
+	padding: 5px 20px;
+	border-radius: 4px;
+	border: 0;
+	border: 1px solid gray;
+}
+.content .rov .Heading:nth-child(2) {
+padding-left: 10px;
+}
+.content .rov .Heading:nth-child(3) {
+padding-left: 10px;
+}
+.square{
+	display: block;
+	width: 500px;
+	height: 400px;
+	background: gray;
+	text-align: center;
+	line-height: 400px;
+}
+.square b{
+	font-size: 200%;
+	color: lightgray;
+}
+.First{
+	width: 100%;
+	display: inline-block;
+}
+.First .Text{
+	padding-left: 0;
+	display: block;
+	float: left;
+	font-size: 150%;
+	width: 60%;
+}
+.First .Text h1 font{
+	color: gray;
+	}
+.First .square{
+	display: block;
+	float: right;
+	width: calc(40% - 40px);
+	padding-left: 40px;
+}
+.Second{
+	width: 100%;
+	display: inline-block;
+}
+.Second .Text{
+	display: block;
+	float: right;
+	font-size: 150%;
+	width: calc(60% - 40px);
+	padding-left: 40px;
+}
+.Second .Text h1 font{
+	color: gray;
+	}
+.Second .square{
+	display: block;
+	float: left;
+	width: 40%;
+}
+.End a{
+	text-decoration: none;
+}
